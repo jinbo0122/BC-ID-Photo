@@ -8,49 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4BC06C111A5A56430084178E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC06C101A5A56430084178E /* main.m */; };
-		4BC06C141A5A56430084178E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC06C131A5A56430084178E /* AppDelegate.m */; };
-		4BC06C171A5A56430084178E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC06C161A5A56430084178E /* ViewController.m */; };
-		4BC06C1A1A5A56430084178E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC06C181A5A56430084178E /* Main.storyboard */; };
+		4BC06C141A5A56430084178E /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC06C131A5A56430084178E /* BCAppDelegate.m */; };
 		4BC06C1C1A5A56430084178E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC06C1B1A5A56430084178E /* Images.xcassets */; };
-		4BC06C1F1A5A56430084178E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC06C1D1A5A56430084178E /* LaunchScreen.xib */; };
-		4BC06C2B1A5A56430084178E /* BC_ID_PhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC06C2A1A5A56430084178E /* BC_ID_PhotoTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4BC06C251A5A56430084178E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BC06C031A5A56430084178E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4BC06C0A1A5A56430084178E;
-			remoteInfo = "BC ID Photo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4BC06C0B1A5A56430084178E /* BC ID Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BC ID Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC06C0F1A5A56430084178E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BC06C101A5A56430084178E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4BC06C121A5A56430084178E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4BC06C131A5A56430084178E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4BC06C151A5A56430084178E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4BC06C161A5A56430084178E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4BC06C191A5A56430084178E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC06C121A5A56430084178E /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		4BC06C131A5A56430084178E /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
 		4BC06C1B1A5A56430084178E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4BC06C1E1A5A56430084178E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4BC06C241A5A56430084178E /* BC ID PhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BC ID PhotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC06C291A5A56430084178E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BC06C2A1A5A56430084178E /* BC_ID_PhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BC_ID_PhotoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4BC06C081A5A56430084178E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BC06C211A5A56430084178E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				4BC06C0D1A5A56430084178E /* BC ID Photo */,
-				4BC06C271A5A56430084178E /* BC ID PhotoTests */,
 				4BC06C0C1A5A56430084178E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				4BC06C0B1A5A56430084178E /* BC ID Photo.app */,
-				4BC06C241A5A56430084178E /* BC ID PhotoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +51,9 @@
 		4BC06C0D1A5A56430084178E /* BC ID Photo */ = {
 			isa = PBXGroup;
 			children = (
-				4BC06C121A5A56430084178E /* AppDelegate.h */,
-				4BC06C131A5A56430084178E /* AppDelegate.m */,
-				4BC06C151A5A56430084178E /* ViewController.h */,
-				4BC06C161A5A56430084178E /* ViewController.m */,
-				4BC06C181A5A56430084178E /* Main.storyboard */,
+				4BC06C121A5A56430084178E /* BCAppDelegate.h */,
+				4BC06C131A5A56430084178E /* BCAppDelegate.m */,
 				4BC06C1B1A5A56430084178E /* Images.xcassets */,
-				4BC06C1D1A5A56430084178E /* LaunchScreen.xib */,
 				4BC06C0E1A5A56430084178E /* Supporting Files */,
 			);
 			path = "BC ID Photo";
@@ -98,23 +64,6 @@
 			children = (
 				4BC06C0F1A5A56430084178E /* Info.plist */,
 				4BC06C101A5A56430084178E /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4BC06C271A5A56430084178E /* BC ID PhotoTests */ = {
-			isa = PBXGroup;
-			children = (
-				4BC06C2A1A5A56430084178E /* BC_ID_PhotoTests.m */,
-				4BC06C281A5A56430084178E /* Supporting Files */,
-			);
-			path = "BC ID PhotoTests";
-			sourceTree = "<group>";
-		};
-		4BC06C281A5A56430084178E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BC06C291A5A56430084178E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +88,6 @@
 			productReference = 4BC06C0B1A5A56430084178E /* BC ID Photo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4BC06C231A5A56430084178E /* BC ID PhotoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4BC06C311A5A56430084178E /* Build configuration list for PBXNativeTarget "BC ID PhotoTests" */;
-			buildPhases = (
-				4BC06C201A5A56430084178E /* Sources */,
-				4BC06C211A5A56430084178E /* Frameworks */,
-				4BC06C221A5A56430084178E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4BC06C261A5A56430084178E /* PBXTargetDependency */,
-			);
-			name = "BC ID PhotoTests";
-			productName = "BC ID PhotoTests";
-			productReference = 4BC06C241A5A56430084178E /* BC ID PhotoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +99,7 @@
 				TargetAttributes = {
 					4BC06C0A1A5A56430084178E = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					4BC06C231A5A56430084178E = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 4BC06C0A1A5A56430084178E;
+						DevelopmentTeam = 4XH3XVHD9D;
 					};
 				};
 			};
@@ -189,7 +117,6 @@
 			projectRoot = "";
 			targets = (
 				4BC06C0A1A5A56430084178E /* BC ID Photo */,
-				4BC06C231A5A56430084178E /* BC ID PhotoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC06C1A1A5A56430084178E /* Main.storyboard in Resources */,
-				4BC06C1F1A5A56430084178E /* LaunchScreen.xib in Resources */,
 				4BC06C1C1A5A56430084178E /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BC06C221A5A56430084178E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,48 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC06C171A5A56430084178E /* ViewController.m in Sources */,
-				4BC06C141A5A56430084178E /* AppDelegate.m in Sources */,
+				4BC06C141A5A56430084178E /* BCAppDelegate.m in Sources */,
 				4BC06C111A5A56430084178E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BC06C201A5A56430084178E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BC06C2B1A5A56430084178E /* BC_ID_PhotoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4BC06C261A5A56430084178E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4BC06C0A1A5A56430084178E /* BC ID Photo */;
-			targetProxy = 4BC06C251A5A56430084178E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4BC06C181A5A56430084178E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BC06C191A5A56430084178E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4BC06C1D1A5A56430084178E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BC06C1E1A5A56430084178E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4BC06C2C1A5A56430084178E /* Debug */ = {
@@ -343,7 +225,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "BC ID Photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,43 +238,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "BC ID Photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4BC06C321A5A56430084178E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BC ID PhotoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BC ID Photo.app/BC ID Photo";
-			};
-			name = Debug;
-		};
-		4BC06C331A5A56430084178E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BC ID PhotoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BC ID Photo.app/BC ID Photo";
 			};
 			name = Release;
 		};
@@ -410,14 +264,6 @@
 			buildConfigurations = (
 				4BC06C2F1A5A56430084178E /* Debug */,
 				4BC06C301A5A56430084178E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4BC06C311A5A56430084178E /* Build configuration list for PBXNativeTarget "BC ID PhotoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4BC06C321A5A56430084178E /* Debug */,
-				4BC06C331A5A56430084178E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
